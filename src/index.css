@@ -1,0 +1,24 @@
+body {
+    margin:0;
+    padding: 20px 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    font-family: "SFProJPDisplay", -apple-system, BlinkMacSystemFont, "Serge UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.just {
+    display: flex;
+    background-color: blue;
+}
+
+.just {
+    display:flex;
+}

@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
 
-import App from './App';
+import PinRouterProvider from './routes';
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+    <PinRouterProvider />
+      
+    </React.StrictMode>
+  );
